@@ -15,6 +15,7 @@ public class Application {
 		ApplicationContext context = new ClassPathXmlApplicationContext("resources/applicationContext.xml");
 		HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
 		System.out.println(obj.getMessage());
+		System.out.println("DONE!!!");
 		
 	}
 }
