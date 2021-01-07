@@ -16,6 +16,7 @@ public class Application {
 		HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
 		System.out.println(obj.getMessage());
 		System.out.println("DONE!!!");
+		System.out.println("*******************");
 		
 	}
 }
